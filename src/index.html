@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timeline</title>
+</head>
+<body>
+  <div class="field">
+    <div class="posts-field">
+
+      <div class="circle-line">
+        <div class="line"></div>
+        <div class="circle" style="top: 10px"></div>
+        <div class="circle" style="top: 150px"></div>
+        <div class="circle" style="top: 305.6px"></div>
+      </div>  
+
+      <div class="list">
+
+        <div class="post-field" id="p1">
+          <div class="conteiner">
+            <div class="text content">Мои философские цитаты мысле иногда оказываются не всегда циатами</div>
+            <div class="date">15.03.09 08:40</div>
+          </div>
+          <div class="navigation">
+            <div class="coordinates">[51.0020202, -54.0202020]</div>
+            <img class="eye" src="./png/eye_65000.png">
+          </div>
+        </div>
+
+        <div class="post-field" id="p2">
+          <div class="conteiner">
+            <audio class="audio content" controls></audio>
+            <div class="date">15.03.09 08:40</div>
+          </div>
+          <div class="navigation">
+            <div class="coordinates">[51.0020202, -54.0202020]</div>
+            <img class="eye" src="./png/eye_65000.png">
+          </div>
+        </div>
+
+        <div class="post-field" id="p3">
+          <div class="conteiner">
+            <video class="video content" controls></video>
+            <div class="date">15.03.09 08:40</div>
+          </div>
+          <div class="navigation">
+            <div class="coordinates">[51.0020202, -54.0202020]</div>
+            <img class="eye" src="./png/eye_65000.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="enter-field">
+      <textarea class="input" autofocus required></textarea>
+      <img class="icon" src="./png/microphonelinear_106212.png" alt="AUDIO">
+      <img class="icon" src="./png/videocamera_54204.png" alt="VIDEO">
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="information">
+      Что-то пошло не так</br></br>К сожалению, нам не удалось определить Ваше месторасположение, пожалуйста, дайте разрешение на использование геолокации, либо введите коордтинаты вручную.</br></br>Широта и долгота через запятую
+    </div>
+    <form>
+      <input class="input-coordinates" type="text" required>
+      <button class="btn ok">ОК</button>
+    </form>
+    <button class="btn cancell">Отмена</button>
+  </div>
+</body>
+
+</html>
